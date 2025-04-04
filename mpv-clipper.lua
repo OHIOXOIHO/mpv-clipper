@@ -256,4 +256,4 @@ mp.add_key_binding("Ctrl+e", "set_end", set_end_time)
 mp.add_key_binding("Ctrl+x", "cut_clip", function() cut_video(false) end)
 mp.add_key_binding("Ctrl+h", "hardsub_clip", function() cut_video(true) end)
 
-mp.osd_message("🎬 Video Cutter loaded (k=start, e=end, x=cut, h=hardsub)", 3)
+mp.osd_message("🎬 Video Cutter loaded (Ctrl+s=start, Ctrl+e=end, Ctrl+x=cut, Ctrl+h=hardsub)", 3)
