@@ -6,6 +6,7 @@ A Lua script for [mpv](https://mpv.io/) player that allows you to easily cut vid
 
 ## Features
 - **Precise Trimming**: Define exact start and end timestamps to extract specific video segments.
+> **Note**: For frame-by-frame accuracy, pair with [mpv-frame-stepper](https://github.com/OHIOXOIHO/mpv-frame-stepper).
 - **Clip Export**: Save trimmed segments as `.mp4` files with optimized encoding options.
 - **Hardsub Support**: Integrate active subtitles (internal or external) into the output video.
 - **Stream Compatibility**: Process and save clips from online streaming sources (e.g., HTTP/HTTPS URLs).
